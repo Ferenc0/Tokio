@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
     <title>Tokió</title>
 </head>
+
 <body>
-    <header></header>
-    <div id="main">
-        <div></div>
+    <!--Navigációs menű-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" id="kezdolap">Kezdőlap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">Információk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#varos_tortenet" class="nav-link">Város történet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#imperial_palace" class="nav-link">Tokiói császári palota</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shibuya_crosswalking" class="nav-link">Shibuyai gyalogos átkelő </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tokyo_skytree" class="nav-link">Tokiói rádiótorony</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tokyo_subway_map" class="nav-link">Tokiói metróhálozat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Képgaléria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#forrasok" class="nav-link">Forrásmegjelőlés</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Infomációk a weblapról-->
+    <section id="#header">
+        <div class="container text-center py-5">
+            <h1>Információk a weblapról</h1>
+            <p class="info">Csoportmunka keretében készült ez a weboldal. A weboldalon Tokiót, mint kedvenc városunkat fogjuk bemutatni. Bemutatunk négy látványoságot a városban, illetve az oldal legalján egy rövid kép galéria is található!</p>
+        </div>
+    </section>
+    <!--Várostörténet-->
+    <div class="container" id="varos_tortenet">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Várostörténet</h1>
+                <p class="tortenet"><span class="bold">Tokió </span>(hivatalosan Tokió Metropolisz), Japán egyik legpopulárisabb városa, közel 14 millió lakos él itt. Eredetileg az <span class="bold">Edo</span> városnevet viselte az 1600-as években a <span class="bold">Tokugawa shógunátus </span> alatt. A XVIII. század közepéig egy kis halászfaluből nagyvárossá nőtte ki magát. A Meiji kor után a császári</p>
+            </div>
+        </div>
     </div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" alt="">
+
+    
 </body>
+
 </html>

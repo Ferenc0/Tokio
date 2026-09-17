@@ -1,0 +1,21 @@
+body{
+    background-color: #F9B7FF;
+    
+}
+
+#header{
+    background-image: url();
+}
+
+section{
+    background-image: url(img/Cherry_Blossom_46_B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-shadow: 1px 1px #f25278;
+    font-weight: 500;
+    width: auto;
+    height: auto;
+
+}
+
