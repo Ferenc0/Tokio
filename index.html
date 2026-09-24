@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="bootstrap.min.js"></script>
     <title>Tokió</title>
+    <link rel="icon" type="image/x-icon" href="img/logo/logo.png">
 </head>
 
 <body>
@@ -25,51 +26,173 @@
                     <li class="nav-item">
                         <a href="#header" class="nav-link">Információk</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="tokioquiz.html" class="nav-link">Tokió Quiz<a>
+                    </li>
+
                     <li class="nav-item">
                         <a href="#varos_tortenet" class="nav-link">Város történet</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="#tokyo_radiotower" class="nav-link">Tokiói Rádiótorony</a>
+                    </li>
+
                     <li class="nav-item">
                         <a href="#imperial_palace" class="nav-link">Tokiói császári palota</a>
                     </li>
+
                     <li class="nav-item">
-                        <a href="#shibuya_crosswalking" class="nav-link">Shibuyai gyalogos átkelő </a>
+                        <a href="#shibuya" class="nav-link">Shibuyai gyalogos kereszteződés</a>
                     </li>
+
                     <li class="nav-item">
-                        <a href="#tokyo_skytree" class="nav-link">Tokiói rádiótorony</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#tokyo_subway_map" class="nav-link">Tokiói metróhálozat</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#gallery" class="nav-link">Képgaléria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#forrasok" class="nav-link">Forrásmegjelőlés</a>
+                        <a href="#tokyo_metro" class="nav-link">Tokiói metró</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--Infomációk a weblapról-->
-    <section id="#header">
+    <section class="header" id="#header">
         <div class="container text-center py-5">
             <h1>Információk a weblapról</h1>
-            <p class="info">Csoportmunka keretében készült ez a weboldal. A weboldalon Tokiót, mint kedvenc városunkat fogjuk bemutatni. Bemutatunk négy látványoságot a városban, illetve az oldal legalján egy rövid kép galéria is található!</p>
+            <p class="info">Csoportmunka keretében készült ez a weboldal. A weboldalon Tokiót, mint kedvenc városunkat
+                fogjuk bemutatni. Bemutatunk négy látványoságot a városban, illetve az oldal legalján egy rövid kvíz is
+                található lesz!</p>
         </div>
     </section>
-    <!--Várostörténet-->
-    <div class="container" id="varos_tortenet">
-        <div class="row">
+    <div class="container">
+        <!--Várostörténet-->
+        <div class="row" id="varos_tortenet">
             <div class="col-md-12">
                 <h1>Várostörténet</h1>
-                <p class="tortenet"><span class="bold">Tokió </span>(hivatalosan Tokió Metropolisz), Japán egyik legpopulárisabb városa, közel 14 millió lakos él itt. Eredetileg az <span class="bold">Edo</span> városnevet viselte az 1600-as években a <span class="bold">Tokugawa shógunátus </span> alatt. A XVIII. század közepéig egy kis halászfaluből nagyvárossá nőtte ki magát. A Meiji kor után a császári</p>
+                <p class="tortenet"><span class="bold">Tokió </span>(hivatalosan Tokió Metropolisz), Japán egyik
+                    legpopulárisabb városa, közel 14 millió lakos él itt. Eredetileg az <span class="bold">Edo</span>
+                    városnevet viselte az 1600-as években a <span class="bold">Tokugawa shógunátus </span> alatt.</p>
+            </div>
+        </div>
+        <!--Tokiói Rádiótorony-->
+        <div class="row" id="tokyo_radiotower">
+            <div class="col-md-6">
+                <img id="radiotower" class="rounded img-thumbnail" src="img/tokyo_radiotower/kep1.png"
+                    alt="Tokiói rádiótorony" title="Tokiói rádiótorony">
+            </div>
+            <div class="col-md-6">
+                <h3>Tokió rádiótorony</h3>
+                <p class="pad">
+                    A Tokiói Rádiótorony az egyik legjellegzetesebb látványoság Japánban. Kivilágítva a zajos városi
+                    életben, a Fuji hegy előtt és a virágzó cseresznye fák között egy gyönyörű látképet kapunk. Az ember
+                    csak gyönyörködni tud a látványban egy nyugalmas, lassú séta alatt.
+                </p>
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Kezdet</th>
+                            <th scope="col">Befelyezés</th>
+                            <th scope="col">Magasság</th>
+                            <th scope="col">Tömege</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1957. június</td>
+                            <td>1958. október 14</td>
+                            <td>332,6 méter</td>
+                            <td>4000 tonna</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--Tokiói császári palota-->
+        <div class="row" id="imperial_palace">
+            <div class="col-md-6">
+                <h3>Tokiói császári palota</h3>
+                <p class="pad">
+                    A Tokiói császári palota, a japán császár hivatalos rezidenciája, amely a főváros központjában van.
+                    Egy hatalmas park terül el az Edó-kastély helyén. Régen a sógunátus központ volt, ma már itt lakik a
+                    császári család. A Nijubashi-híd ami nem messze található a palotától, az egyik legnevezetesebb
+                    kettős híd a fotósok számára.
+                </p>
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Kezdet</th>
+                            <th scope="col">Edo-kastély néven</th>
+                            <th scope="col">hivatalosan császári palota</th>
+                            <th scope="col">Modern palota </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15. század közepén építették</td>
+                            <td>1603 - 1867</td>
+                            <td>1869</td>
+                            <td>1968-tól napjainkig</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <img id="tokyo_empire_palace" class="rounded img-thumbnail"
+                    src="img/tokyo_empire_palace/Tokyo_empire_palace.jpg" alt="Tokiói császári palota"
+                    title="Tokiói császári palota">
+            </div>
+        </div>
+        <!--Shibuya-->
+        <div class="row" id="shibuya">
+            <div class="col-md-6">
+                <img src="img/Shibuya/shibuya.jpg" alt="Shibuya kereszteződés" class="rounded img-thumbnail"
+                    title="Shibuyai gyalogos kereszteződés">
+            </div>
+            <div class="col-md-6">
+                <h3>Shibuyai gyalogos kereszteződés</h3>
+                <p class="kozepre">
+                    Ez a kereszteződés nem mindenki számára látvány. Viszont, mikor a piros gyalogos átkelő jelzőlámpái
+                    zöldre váltanak, egy hatalmas embertömeg zúdul az utcára és mintha elfoglalná az egész utat az
+                    autósok elől. Ez a shibuyai kereszteződés, amely egy nevezetes gyalogos átkelőhely a helyi lakosok
+                    számára. Régen 1000 még az is lehet, hogy 10.000 ember ment át ezen a kereszteződésen, viszont a mai
+                    technológia hatására, az emberek száma csökkent, akik át akarnak menni egyik oldalról a másikra.
+                </p>
+            </div>
+        </div>
+        <!--Tokiói metró-->
+        <div class="row" id="tokyo_metro">
+            <div class="col-md-6">
+                <h3>A tokiói metróhálózat</h3>
+                <p>
+                    A világ legpontosabb és leggyorsabb metróhálózata. Az egyik leghasználtabb és legfontosabb
+                    közlekedési hálózata, ami magába foglalja Tokió vasutait is a főváros körül. 9 vonalat üzemeltet,
+                    amelyekből 7 össze van kötve az elővárosi magánvasutak vonalaival. Kimerem jelenteni, hogy 3-szor
+                    nagyobb a Budapest metróvonalakhoz képest
+                </p>
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Átadás</th>
+                            <th scope="col">A hálózat hossza</th>
+                            <th scope="col">Vonalak száma</th>
+                            <th scope="col">Állomások/megállók száma</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1927</td>
+                            <td>304,1 km</td>
+                            <td>13</td>
+                            <td>285</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <img src="img/Subway/kep3.png" class="rounded img-thumbnail" alt="Tokiói metróhálózat"
+                    title="Tokiói metróhálózat">
             </div>
         </div>
     </div>
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" alt="">
-
-    
 </body>
 
 </html>

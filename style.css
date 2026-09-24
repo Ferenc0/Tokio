@@ -7,7 +7,7 @@ body{
     background-image: url();
 }
 
-section{
+.header{
     background-image: url(img/Cherry_Blossom_46_B.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,3 +19,20 @@ section{
 
 }
 
+.pad{
+    padding-top: 55px;
+    text-align: left;
+    text-align: justify;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+h3{
+    padding-top: 25px;
+}
