@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="bootstrap.min.css">
-    <script src="bootstrap.min.js"></script>
-    <title>Tokió</title>
+    <script src="bootstrap.min.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="img/logo/logo.png">
+    <title>Tokió Quíz</title>
 </head>
 
 <body>
     <!--Navigációs menű-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a href="index.html" class="navbar-brand" id="kezdolap">Kezdőlap</a>
+            <a href="index.html" class="navbar-brand" id="kezdolap">Quíz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,11 +24,58 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Információk</a>
+                        <a href="index.html" class="nav-link">Kezdőlap</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <section class="header" id="#header">
+        <div class="container text-center py-5">
+            <h1>Quíz Time</h1>
+        </div>
+    </section>
+    <main>
+        <h6>Milyen város nevet viselt az 1600-as években.</h6>
+
+        <input type="text" id="Edo" size="5">
+        <button id="submint1" type="submit" onclick="Edo0()">Submint</button>
+        <p id="valasz001"></p>
+        <br>
+
+        <h6>Mikor kezdék el épiteni a Tokió rádiótornyot.</h6>
+        <p id="jo">
+            A <button class="btn" id="kezdet">1957 június</button>
+        </p>
+
+        <p class="rossz">
+            B <button class="btn kezdet2">1958. október 14</button>
+        </p>
+
+        <p class="rossz">
+            C <button class="btn kezdet2">1956. június</button>
+        </p>
+        <br>
+
+        <h6>Tokiói császári palota mikor lett hivatalosan.</h6>
+        <input type="text" id="palota">
+        <button type="submit" id="submint2" onclick="hivatalos()">Submint</button>
+        <p id="valasz002"></p>
+
+        <h6>Mennyi állomása van a tokioi metroállomásnak.</h6>
+        <button class="btn megallok">235</button>
+        <button class="btn megallok">185</button>
+        <button class="btn" id="megallokJO">285</button>
+        <button class="btn megallok">212</button>
+
+        <h6>Mi látható a képen.</h6>
+        <input type="text" id="shibuya"> <button type="submit" id="submint3" onclick="shibuya0()">Submint</button>
+        <p id="valasz003"></p>
+        <img src="img/Shibuya/shibuya.jpg" alt="" class="rounded img-thumbnail">
+
+
+        <p>Ennyiszer rontottad el: <span id="rontasod" >0</span></p>
+    </main>
 </body>
+
 </html>
