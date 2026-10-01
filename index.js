@@ -29,7 +29,7 @@ function hivatalos(){
     var valasz002 = document.getElementById("valasz002")
     
 
-    if(palota == 1969){
+    if(palota == 1869){
         valasz002.innerHTML="Helyes"
         valasz002.style.color="green"
         document.getElementById("submint2").style.display="none"
