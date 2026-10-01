@@ -55,6 +55,42 @@ h3{
     box-sizing: border-box;
 }
 
+button{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: solid #44b8db 2px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 300ms;
+}
+button{
+    background-color: #333;
+    padding: 10px 25px;
+    border: solid #44b8db 2px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: solid #44b8db 2px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 300ms;
+}
+input{
+    background-color: #333;
+    padding: 10px 25px;
+    border: solid #44b8db 2px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
 main {
     box-sizing: border-box;
     background-color: rgb(201, 199, 199);

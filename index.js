@@ -13,7 +13,7 @@ function Edo0(){
         document.getElementById("submint1").style.display="none"
         document.getElementById("Edo").disabled=true
     }else{
-        valasz001.innerHTML="Helytelet"
+        valasz001.innerHTML="Helytelen"
         valasz001.style.color="red"
         
         rontasodE();
@@ -35,7 +35,7 @@ function hivatalos(){
         document.getElementById("submint2").style.display="none"
         document.getElementById("palota").disabled=true
     }else{
-        valasz002.innerHTML="Helytelet"
+        valasz002.innerHTML="Helytelen"
         valasz002.style.color="red"
         
         rontasodE();
@@ -60,7 +60,7 @@ function shibuya0(){
         document.getElementById("submint3").style.display="none"
         document.getElementById("shibuya").disabled=true
     }else{
-        valasz003.innerHTML="Helytelet"
+        valasz003.innerHTML="Helytelen"
         valasz003.style.color="red"
        
         rontasodE();
